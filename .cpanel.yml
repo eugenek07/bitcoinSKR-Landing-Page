@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/bitcoi62/repositories/bitcoinSKR-Landing-Page
+    - export DEPLOYPATH=/home/bitcoi62/public_html
     - /bin/cp -R images $DEPLOYPATH
