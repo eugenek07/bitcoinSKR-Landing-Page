@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/bitcoi62/landingpage/
+    - /bin/cp -R images $DEPLOYPATH
