@@ -3,12 +3,17 @@
     width: 200px;
     height: 32px;
   }
-  #wrapper {
+#wrapper {
 	border: 1px solid #000;
 	width: 950px;
 	margin: auto;
 }
+a {
+  color: white; /* Set the color to black */
+  text-decoration: none; /* Remove the underline */
+}
   .about {
+
     width: 92px;
     display: flex;
     flex-direction: row;
