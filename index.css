@@ -1,13 +1,39 @@
 .logo-icon {
-    position: relative;
-    width: 200px;
-    height: 32px;
-  }
-#wrapper {
-	border: 1px solid #000;
-	width: 950px;
-	margin: auto;
+  position: relative;
+  width: 100%; /* Make it relative to the parent container */
+  max-width: 200px; /* Limit the maximum width */
+  height: auto; /* Maintain aspect ratio */
 }
+
+#wrapper {
+  border: 1px solid #000;
+  width: 100%; /* Make it full width */
+  max-width: 950px; /* Limit the maximum width */
+  margin: auto;
+}
+
+/* Add a media query for screens with a maximum width of 768px (typical for mobile devices) */
+@media (max-width: 768px) {
+  #wrapper {
+      max-width: 100%; /* Make it full width on smaller screens */
+  }
+
+  .nav {
+      width: 100%; /* Make the navigation full width on smaller screens */
+  }
+
+  .hero, .image1 {
+      width: 100%; /* Make images full width on smaller screens */
+      height: auto; /* Maintain aspect ratio */
+  }
+
+  .frame3, .frame4 {
+      width: 100%; /* Make these frames full width on smaller screens */
+  }
+}
+
+/* Add more media queries as needed to adjust styles for other screen sizes */
+
 a {
   color: white; /* Set the color to black */
   text-decoration: none; /* Remove the underline */
