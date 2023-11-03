@@ -1,0 +1,222 @@
+.logo-icon {
+    position: relative;
+    width: 200px;
+    height: 32px;
+  }
+  .about {
+    width: 92px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xs) var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .home {
+    position: relative;
+    line-height: 24px;
+  }
+  .wallet-child {
+    position: relative;
+    width: 9.37px;
+    height: 9.37px;
+  }
+  .buttons,
+  .nav,
+  .wallet {
+    display: flex;
+    flex-direction: row;
+  }
+  .wallet {
+    border-radius: var(--br-9xs);
+    background-color: var(--main-gold);
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xs) var(--padding-lg);
+    gap: var(--gap-5xs);
+    font-size: var(--font-size-base);
+  }
+  .buttons,
+  .nav {
+    align-items: flex-start;
+  }
+  .buttons {
+    justify-content: flex-start;
+    gap: 42px;
+  }
+  .nav {
+    width: 1440px;
+    justify-content: space-between;
+    padding: 30px var(--padding-125xl);
+    box-sizing: border-box;
+  }
+  .hero,
+  .press-1-icon {
+    width: 1440px;
+    height: 240px;
+  }
+  .press-1-icon {
+    position: absolute;
+    top: calc(50% - 120px);
+    left: calc(50% - 720px);
+    object-fit: cover;
+  }
+  .hero {
+    position: relative;
+    background-color: #797979;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .section-title {
+    position: relative;
+    line-height: 44px;
+    display: inline-block;
+    width: 758px;
+  }
+  .title {
+    width: 1440px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .body,
+  .press3,
+  .title {
+    display: flex;
+    flex-direction: column;
+  }
+  .press3 {
+    align-items: center;
+    justify-content: flex-start;
+    padding: 80px 0;
+  }
+  .body {
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--gap-29xl);
+    text-align: center;
+    font-size: 36px;
+  }
+  .lets-get-started {
+    margin: 0;
+  }
+  .let-nextcent-do-container {
+    position: relative;
+    display: inline-block;
+    width: 1136px;
+  }
+  .button-child {
+    position: relative;
+    width: 11.37px;
+    height: 11.37px;
+  }
+  .button,
+  .cta {
+    display: flex;
+    align-items: center;
+  }
+  .button {
+    border-radius: var(--br-9xs);
+    background-color: var(--main-gold);
+    flex-direction: row;
+    justify-content: center;
+    padding: var(--padding-3xs) var(--padding-xl);
+    gap: var(--gap-3xs);
+    text-align: left;
+    font-size: var(--font-size-xl);
+  }
+  .cta {
+    background-color: #6d6b69;
+    width: 1440px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 48px 0;
+    box-sizing: border-box;
+    gap: var(--gap-9xl);
+    text-align: center;
+    font-size: 40px;
+    color: var(--color-white);
+  }
+  .english,
+  .korean {
+    position: relative;
+    line-height: 20px;
+  }
+  .korean {
+    font-weight: 500;
+  }
+  .language {
+    background-color: #575653;
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0;
+    box-sizing: border-box;
+    gap: var(--gap-9xl);
+  }
+  .logo-icon1 {
+    position: relative;
+    width: 180px;
+    height: 119px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .company-info {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+  }
+  .social-icons {
+    position: relative;
+    width: 32px;
+    height: 32px;
+  }
+  .footer1,
+  .social-links,
+  .social-links-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .social-links {
+    overflow: hidden;
+    justify-content: flex-end;
+    gap: 16px;
+  }
+  .footer1,
+  .social-links-wrapper {
+    justify-content: flex-start;
+  }
+  .footer1 {
+    background-color: #4b4a48;
+    width: 1440px;
+    justify-content: space-between;
+    padding: 62px var(--padding-125xl);
+    box-sizing: border-box;
+  }
+  .footer,
+  .press {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: var(--font-size-sm);
+    color: var(--color-whitesmoke);
+  }
+  .press {
+    position: relative;
+    background-color: var(--main-grey);
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+    gap: var(--gap-29xl);
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-white);
+    font-family: var(--font-noto-sans);
+  }
+  
