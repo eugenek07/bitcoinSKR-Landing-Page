@@ -3,6 +3,10 @@
     width: 200px;
     height: 32px;
   }
+  a {
+    color: white; /* Set the color to black */
+    text-decoration: none; /* Remove the underline */
+  }
   .press {
     width: 92px;
     display: flex;
