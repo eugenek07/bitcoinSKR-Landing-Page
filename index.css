@@ -207,18 +207,18 @@ a {
 .when-joining-the {
   width: 100%; /* Allow the text to expand to the full width of its container */
   position: relative;
-  font-size: var(--font-size-xl);
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
 @media (max-width: 768px) {
   .revolutionary-hashing-protocol { 
     width: 100vh;
-    font-size: 6vw;
+    font-size: 4vw;
   }
   .when-joining-the {
-    width: 60vh;
-    font-size: 3vw;
+    width: 50vh;
+    font-size: 2vw;
   }
 }
 
