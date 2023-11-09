@@ -269,7 +269,7 @@ a {
 @media (max-width: 768px) {
   .subsection { 
     width: 100vh;
-    font-size: 5vw;
+    font-size: 4.5vw;
   }
   .subsection-description {
     width: 50vh;
@@ -410,9 +410,11 @@ a {
 
 
   .let-nextcent-do-container {
-    position: relative;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    text-align: center;
   }
   .button-child {
     position: relative;
@@ -439,6 +441,7 @@ a {
     width: 100%;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
     padding: 48px 0;
     box-sizing: border-box;
     gap: var(--gap-9xl);
@@ -457,6 +460,11 @@ a {
   }
 
   @media (max-width: 768px) {
+    .english {
+      line-height: 10px;
+      font-size: 1.5vw;
+
+    }
     .korean {
       line-height: 10px;
       font-size: 1.5vw;
