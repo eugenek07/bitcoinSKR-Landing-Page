@@ -423,7 +423,7 @@ a {
 .logo-icon {
   position: relative;
   width: 100%; 
-  max-width: 200px; 
+  /* max-width: 200px;  */
   height: auto; 
 }
 
@@ -446,7 +446,7 @@ a {
 }
 
 .company-info {
-  flex: 1;
+  /* flex: 1; */
 
   overflow: hidden;
   display: flex;
@@ -454,6 +454,8 @@ a {
   align-items: center;
   justify-content: flex-start;
   gap: 10px;
+  margin-left: -50px;
+  margin-right: -50px;
 }
 
 
@@ -510,12 +512,12 @@ a {
   @media (max-width: 768px) {
     .english {
       line-height: 10px;
-      font-size: 1.5vw;
+      font-size: 2vw;
 
     }
     .korean {
       line-height: 10px;
-      font-size: 1.5vw;
+      font-size: 2vw;
     }
   }
 
