@@ -29,6 +29,8 @@ a {
     font-family: var(--font-noto-sans);
     width: 100%;
     margin-bottom: -50px;
+    padding: 20px;
+
   }
   
   .logo-link {
@@ -192,16 +194,6 @@ a {
       display: flex;
     }
 
-    .frame {
-      max-width: 100%; /* Ensure the frame doesn't exceed the width of the viewport */
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0 var(--padding-125xl);
-      box-sizing: border-box;
-      width: 100%; /* Ensure the frame takes up the full width */
-    }
 
     .cryptocurrency-isometric-illus-icon {
       object-fit: contain;
@@ -273,7 +265,6 @@ a {
   justify-content: flex-start;
   gap: var(--gap-base);
 }
-.body,
 .description,
 .frame3 {
   display: flex;
@@ -404,16 +395,6 @@ a {
 }
 
 /* FOOTER!!!! */
-.nav {
-  display: flex;
-  align-items: right;
-  justify-content: space-between;
-  padding: 20px;
-  background-color: var(--main-grey);
-  color: var(--color-white);
-  font-family: var(--font-noto-sans);
-  width: 100%;
-}
 
 .logo-link {
   text-decoration: none;
@@ -581,7 +562,6 @@ a {
     width: 100%;
     overflow: hidden;
     margin: 10px;
-
   }
   
 

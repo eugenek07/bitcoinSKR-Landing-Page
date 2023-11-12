@@ -2,7 +2,11 @@
 <html>
   <head>
     <title>About | bitcoinskr</title>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
+
+    <link rel="icon" type="image/x-icon" href="/media/images/favicon.png">
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta property="og:url" content="bitcoinskr.com/about">
@@ -19,222 +23,199 @@
       href="https://fonts.googleapis.com/css2?family=Noto Sans:wght@500;700&display=swap"
     />
   </head>
+
   <body>
     <div class="about">
       <div class="nav">
-        <a href="https://www.bitcoinskr.com">
+        <a href="../" class="logo-link">
           <img class="logo-icon" alt="" src="../media/images/logo.svg" />
-        </a>        
+        </a>
+        <div class="menu-toggle" onclick="toggleDropdown(this)">
+          <span></span>
+          <span></span>
+          <span></span>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="../about">About</a>
+            <a href="../press">Press</a>
+            <a href="../wallet">Wallet</a>
+          </div>
+        </div>
+
         <div class="buttons">
-          <a href=".">
-            <div class="press">
+          <div class="button-in">
+            <a href="../about">
               <b class="home">About</b>
-            </div>
-          </a>
-          <a href="../press/">
-            <div class="press">
+            </a>
+          </div>
+          <a href="../press">
+            <div class="button-in">
               <b class="home">Press</b>
             </div>
           </a>
           <a href="../wallet">
             <div class="wallet">
               <b class="home">Wallet</b>
-              <img class="wallet-child" alt="" src="../media/elements/Vector1.png" />
+              <img class="wallet-child" alt="" src="media/elements/Vector1.png" />
             </div>
           </a>
-
-        </div>
+        </div> 
       </div>
+
+      <div class="divider"></div>
+
       <div class="body">
         <div class="hero">
           <img class="about-icon" alt="" src="../media/images/about.png" />
         </div>
-        <div class="white-paper">
-          <div class="frame">
-            <div class="frame1">
-              <b class="section-title">Discover the Future with Bitcoin SKR</b>
-              <div class="description">
-                <p class="bitcoin-skr-has">
-                  Bitcoin SKR has reimagined the core algorithms to empower
-                  every miner,
-                </p>
-                <p class="bitcoin-skr-has">
-                  championing a truly democratic network.
-                </p>
+
+        <div class="frame">
+          <b class="section-title">Discover the Future with Bitcoin SKR</b>
+          <div class="description">
+            Bitcoin SKR has reimagined the core algorithms to empower
+            every miner, championing a truly democratic network.
+            <br>
+            Our innovative features are tailored to simplify your daily
+            crypto transactions. 
+            <br>
+            And with a spotlight on security, privacy, and smooth
+            interoperability, Bitcoin SKR is setting a new benchmark in the blockchain
+            world.
+          </div>
+
+          <div class="download-the-whitepaper-parent">
+            <b class="download-the-whitepaper">Download the Whitepaper</b>
+            <a href="../media/Bitcoin SKR Whitepaper.pdf">
+              <div class="button">
+                <b class="home">Download</b>
               </div>
-              <div class="description">
-                <p class="bitcoin-skr-has">
-                  Our innovative features are tailored to simplify your daily
-                  crypto transactions.
-                </p>
-                <p class="bitcoin-skr-has">
-                  And with a spotlight on security, privacy, and smooth
-                  interoperability,
-                </p>
-                <p class="bitcoin-skr-has">
-                  Bitcoin SKR is setting a new benchmark in the blockchain
-                  world.
-                </p>
-              </div>
-            </div>
-            <div class="download-the-whitepaper-parent">
-              <b class="download-the-whitepaper">Download the Whitepaper</b>
-              <a href="../media/Bitcoin SKR Whitepaper.pdf">
-                <div class="button">
-                  <b class="home">Download</b>
-                </div>
-              </a>
-            </div>
+            </a>
           </div>
         </div>
+
         <div class="divider"></div>
-        <div class="vision">
-          <div class="frame2">
-            <div class="frame3">
-              <b class="upholding-the-promise">Our Vision</b>
-              <div class="description2">
-                <p class="bitcoin-skr-has">
-                  We amplify security, scale seamlessly,
-                </p>
-                <p class="bitcoin-skr-has">
-                  and ensure equal opportunities for all mining enthusiasts.
-                </p>
-              </div>
-            </div>
-            <div class="image-parent">
-              <div class="image">
-                <img
-                  class="crypto-miner3-1"
-                  alt=""
-                  src="../media/images/cryptominer3.png"
-                />
-              </div>
-              <div class="frame-parent">
-                <div class="description-parent">
-                  <b class="description3">New Mining Approach</b>
-                  <div class="description4">
-                    <p class="bitcoin-skr-has">
-                      We’re adopting a subscription-based model,
-                    </p>
-                    <p class="bitcoin-skr-has">
-                      backed by the trusted Proof of Work mechanism.
-                    </p>
-                  </div>
-                </div>
-                <div class="description-parent">
-                  <b class="description3">Security and Scalability</b>
-                  <div class="description4">
-                    <p class="bitcoin-skr-has">
-                      Our core aim is to build a network that’s not only safer
-                    </p>
-                    <p class="bitcoin-skr-has">but can also grow with ease.</p>
-                  </div>
-                </div>
-                <div class="description-parent">
-                  <b class="description3">Fair Reward for Miners</b>
-                  <div class="description4">
-                    <p class="bitcoin-skr-has">
-                      Our unique lottery system for miners promises exciting
-                      rewards.
-                    </p>
-                    <p class="bitcoin-skr-has">
-                      With the looming potential of ASIC-mining, we seek to
-                      balance the mining power.
-                    </p>
-                  </div>
-                </div>
-                <div class="description-parent">
-                  <b class="description3">Deep Dives & Refinement</b>
-                  <div class="description4">
-                    <p class="bitcoin-skr-has">
-                      From adjusting our hash functionality to examining our
-                      foundation,
-                    </p>
-                    <p class="bitcoin-skr-has">
-                      we’re all about ensuring fairness and security.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="download-the-whitepaper-parent">
-              <b class="download-the-whitepaper"
-                >Join Our Evolutionary Journey</b
-              >
-              <a href="https://github.com/bitcoinskr/bitcoinskr">
-                <div class="button1">
-                  <b class="home">GitHub</b>
-                  <img class="button-child" alt="" src="../media/elements/Vector1.png" />
-                </div>
-              </a>
+
+        <div class="frame">
+          <div class="frame3">
+            <b class="section-title">Our Vision</b>
+            <div class="description">
+                We amplify security, scale seamlessly, and ensure equal opportunities for all mining enthusiasts.
             </div>
           </div>
+
+          <div class="image-parent">
+            <div class="image">
+              <img
+                class="icon"
+                alt=""
+                src="../media/images/cryptominer3.png"
+              />
+            </div>
+
+            <div class="frame-parent">
+                <b class="description3">New Mining Approach</b>
+                <div class="description4">
+                    We’re adopting a subscription-based model, 
+                    <br>
+                    backed by the trusted Proof of Work mechanism.
+                </div>
+                <b class="description3">Security and Scalability</b>
+                <div class="description4">
+                    Our core aim is to build a network that’s not only safer
+                    <br>
+                    but can also grow with ease.
+                </div>
+                <b class="description3">Fair Reward for Miners</b>
+                <div class="description4">
+                    Our unique lottery system for miners promises exciting
+                    rewards.
+                    <br>
+                    With the looming potential of ASIC-mining, we seek to
+                    balance the mining power.
+                </div>
+                <b class="description3">Deep Dives & Refinement</b>
+                <div class="description4">
+                    From adjusting our hash functionality to examining our
+                    foundation,
+                    <br>
+                    we’re all about ensuring fairness and security.
+                </div>
+            </div>
+          </div>
+          <div class="download-the-whitepaper-parent">
+            <b class="download-the-whitepaper">Join Our Evolutionary Journey</b>
+            <a href="https://github.com/bitcoinskr/bitcoinskr">
+              <div class="button">
+                <b class="home">GitHub</b>
+                <img class="button-child" alt="" src="../media/elements/Vector1.png" />
+              </div>
+            </a>
+          </div>
         </div>
-        <div class="divider1"></div>
+
         <div class="hero">
           <img class="about-icon" alt="" src="../media/images/feature.png" />
         </div>
-        <div class="features">
-          <div class="miners">
-            <b class="upholding-the-promise">Upholding the Promise</b>
-            <div class="section">
-              <div class="frame4">
-                <b class="security">Security</b>
-                <div class="enhanced-security-with">
-                  Enhanced security, with your details remain private
-                </div>
+
+        <div class="frame">
+          <b class="section-title">Upholding the Promise</b>
+          <div class="section">
+            <div class="frame4">
+              <b class="security">Security</b>
+              <div class="enhanced-security-with">
+                Enhanced security, with your details remain private
               </div>
-              <div class="frame5">
-                <b class="security">Privacy</b>
-                <div class="enhanced-security-with">
-                  Zero-Knowledge Proof inspired security features and algorithms
-                </div>
+            </div>
+            <div class="frame4">
+              <b class="security">Privacy</b>
+              <div class="enhanced-security-with">
+                Zero-Knowledge Proof inspired security features and algorithms
               </div>
-              <div class="frame5">
-                <b class="interoperability">Interoperability</b>
-                <div class="enhanced-security-with">
-                  Versatility in managing different cryptocurrency assets
-                </div>
+            </div>
+            <div class="frame4">
+              <b class="security">Interoperability</b>
+              <div class="enhanced-security-with">
+                Versatility in managing different cryptocurrency assets
               </div>
             </div>
           </div>
-          <div class="miners">
-            <b class="upholding-the-promise">Empowering Miners</b>
-            <div class="section">
-              <div class="frame4">
-                <b class="minimum-stake">Minimum Stake</b>
-                <div class="enhanced-security-with">
-                  Commit a minimum fee in Bitcoin SKR to participate, which
-                  deters malicious actors and enhances network security
-                </div>
+          <b class="section-title">Empowering Miners</b>
+          <div class="section">
+            <div class="frame4">
+              <b class="security">Minimum Stake</b>
+              <div class="enhanced-security-with">
+                Commit a minimum fee in Bitcoin SKR to participate, which
+                deters malicious actors and enhances network security
               </div>
-              <div class="frame5">
-                <b class="security">Transaction Fee Rewards</b>
-                <div class="enhanced-security-with">
-                  Earn fees from processed transactions and new coin rewards for
-                  maintaining the blockchain
-                </div>
+            </div>
+            <div class="frame4">
+              <b class="security">Transaction Fee Rewards</b>
+              <div class="enhanced-security-with">
+                Earn fees from processed transactions and new coin rewards for
+                maintaining the blockchain
               </div>
-              <div class="frame5">
-                <b class="lottery-rewards">Lottery Rewards</b>
-                <div class="enhanced-security-with">
-                  Rewarded with a unique NFT-driven lottery, granting periodic
-                  crypto payouts and providing incentives for miners
-                </div>
+            </div>
+            <div class="frame4">
+              <b class="security">Lottery Rewards</b>
+              <div class="enhanced-security-with">
+                Rewarded with a unique NFT-driven lottery, granting periodic
+                crypto payouts and providing incentives for miners
               </div>
             </div>
           </div>
         </div>
-        <div class="divider1"></div>
       </div>
+      
       <div class="footer">
         <div class="cta">
           <b class="let-nextcent-do-container">
-            <p class="bitcoin-skr-has">Let’s get started</p>
-            <p class="bitcoin-skr-has">with Bitcoin SKR</p>
+            <p class="section-title">
+              Let’s get started
+              <br>
+              with Bitcoin SKR
+            </p>
           </b>
-          <a href="../wallet">
-            <div class="button1">
+          <a href="./wallet">
+            <div class="button">
               <b class="home">Wallet</b>
               <img class="button-child" alt="" src="../media/elements/Vector1.png" />
             </div>
@@ -242,42 +223,31 @@
         </div>
         <div class="language">
           <b class="english">English</b>
-          <div class="arabic">Arabic (Coming Soon)</div>
+          <b class="korean">Arabic (Coming Soon)</b>
+          <b class="korean">Chinese (Coming Soon)</b>
         </div>
+
         <div class="footer1">
           <div class="company-info">
             <a href="https://www.bitcoinskr.com">
-              <img class="logo-icon1" alt="" src="../media/images/logo.svg" />
+              <img class="logo-icon" alt="" src="../media/images/logo.svg" />
             </a>
-
             <div class="korean">
-              <p class="bitcoin-skr-has">Copyright © 2023 Bitcoin SKR</p>
-              <p class="bitcoin-skr-has">All rights reserved.</p>
+              Copyright © 2023 Bitcoin SKR
+              <br>
+              All rights reserved.
             </div>
           </div>
           <div class="social-links-wrapper">
             <div class="social-links">
-              <img
-                class="social-icons"
-                alt=""
-                src="../media/elements/socialicons1.png"
-              />
-
-              <img
-                class="social-icons"
-                alt=""
-                src="../media/elements/socialicons2.png"
-              />
-
-              <img
-                class="social-icons"
-                alt=""
-                src="../media/elements/socialicons3.png"
-              />
+              <img class="social-icons" alt="" src="../media/elements/socialicons1.png"/>
+              <img class="social-icons" alt="" src="../media/elements/socialicons2.png"/>
+              <img class="social-icons" alt="" src="../media/elements/socialicons3.png"/>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="../index.js"></script>
   </body>
 </html>
