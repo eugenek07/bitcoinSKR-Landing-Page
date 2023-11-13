@@ -269,6 +269,8 @@
     .section-title { 
       width: 100vh;
       font-size: 4.5vw;
+      /* white-space: normal; */
+      word-wrap: break-word;
     }
     .description {
       width: 50vh;
@@ -355,6 +357,7 @@
     }
     .frame-parent {
       align-items: center;
+      text-align: center;
     }
     .description3 {
       font-size: 4vw;
