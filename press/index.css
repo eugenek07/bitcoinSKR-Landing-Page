@@ -9,6 +9,14 @@
     color: white; /* Set the color to black */
     text-decoration: none; /* Remove the underline */
   }
+
+
+  .home {
+    position: relative;
+    line-height: 24px;
+  }
+
+
   .body {
     justify-content: center;
     gap: var(--gap-29xl);
@@ -30,7 +38,6 @@
     width: 100%;
     margin-bottom: -50px;
     padding: 20px;
-
   }
   
   .logo-link {
@@ -41,13 +48,11 @@
 
   .logo-icon {
     position: relative;
-    width: 100%; 
+    width: 200%; 
     max-width: 200px; 
     height: auto; 
     object-fit: contain;
   }
-  
-  
   
   .buttons {
     display: flex;
@@ -189,7 +194,6 @@ transition: 0.4s;
     left: 10px;
     background-color: var(--main-grey);
     border-radius: var(--br-9xs);
-
   }
 
   .buttons a {
@@ -201,15 +205,10 @@ transition: 0.4s;
     display: flex;
   }
 
-
   .press-1-icon {
     object-fit: cover;
   }
 }
-
-
-
-
 
   .frame {
     width: 100%;
