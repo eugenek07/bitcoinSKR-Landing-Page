@@ -1,3 +1,10 @@
+#wrapper {
+  border: 1px solid #000;
+  width: 100%; /* Make it full width */
+  max-width: 950px; /* Limit the maximum width */
+  margin: auto;
+}
+  
   a {
     color: white; /* Set the color to black */
     text-decoration: none; /* Remove the underline */
@@ -34,7 +41,7 @@
 
   .logo-icon {
     position: relative;
-    width: 200%; 
+    width: 100%; 
     max-width: 200px; 
     height: auto; 
     object-fit: contain;
@@ -340,6 +347,17 @@ transition: 0.4s;
     .korean {
       line-height: 10px;
       font-size: 2vw;
+    }
+
+    .logo-link {
+      text-decoration: none;
+      color: inherit;
+    }
+    
+    .logo-icon {
+      position: relative;
+      width: 100%; 
+      height: auto; 
     }
   }
 
